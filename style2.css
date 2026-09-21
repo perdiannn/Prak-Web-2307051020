@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 25px 50px;
+}
+
+
+header h1 {
+    margin: 0 0 15px;
+}
+
+#nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+}
+
+
+nav a:hover {
+    color: #ffd166;
+}
+
+
+.hero,
+.position,
+.floating,
+.shadow {
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+}
+
+.box-vertical,
+.box-horizontal,
+.box-blur,
+.box-color {
+    width: 250px;
+    padding: 30px;
+    box-shadow: 5px 5px 15px gray;
+}
+
+
+button:hover {
+    background-color: #343a40;
+    color: white;
+}
+
+button:active {
+    background-color: #ff0000;
+    color: white;
+}
+
+.position {
+    position: relative;
+    height: 250px;
+}
+
+
+.static {
+    position: static;
+    background-color: #ddd;
+    padding: 15px;
+}
+
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 150px;
+    padding: 15px;
+    background-color: #bde3f2;
+}
+
+
+.absolute {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 15px;
+    background-color: #a7e9a5;
+}
+
+
+.float-left {
+    float: left;
+    width: 150px;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #bde3f2;
+}
+
+
+.float-right {
+    float: right;
+    width: 150px;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: #a7e9a5;
+}
+
+.float-none {
+    float: none;
+    width: 150px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+.text {
+    color: #e30000;
+    clear: left;
+    padding-top: 10px;
+}
+
+.text1 {
+    color: #7f5cff;
+    text-align: right;
+    clear: right;
+    padding-top: 10px;
+}
+
+.clearfix {
+    clear: both;
+    display: block;
+}
+
+.box-section {
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+}
+
+.box-vertical {
+    background-color: rgb(249, 5, 5);
+}
+
+.box-horizontal {
+    background-color: rgb(238, 250, 7);
+}
+
+.box-blur {
+    background-color: rgb(64, 253, 7);
+}
+
+.box-color {
+    background-color: rgb(14, 102, 234);
+}
+
+.shadow-box {
+    width: 250px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 15px gray;
+}
+
+
+footer {
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+}
