@@ -1,0 +1,150 @@
+
+/* Pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f5f9;
+    color: #1f2e45;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+/* Header */
+.header {
+    background: #1f2e45;
+    color: white;
+    padding: 35px 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.subtitle {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    opacity: 0.85;
+}
+
+.header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* Konten utama */
+main {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+main h1,
+main h2 {
+    margin-bottom: 20px;
+    color: #1f2e45;
+}
+
+.content p {
+    margin-bottom: 12px;
+}
+
+/* Daftar menu */
+.menu {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.menu li {
+    margin-bottom: 12px;
+}
+
+.menu a {
+    display: block;
+    padding: 14px 18px;
+    background: #eff6ff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 8px;
+    border-left: 4px solid #1f2e45;
+    transition: 0.2s;
+}
+
+.menu a:hover {
+    background: #dbeafe;
+    transform: translateX(4px);
+}
+
+/* Form */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+button,
+.back {
+    display: inline-block;
+    background: #1f2e45;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover,
+.back:hover {
+    background: #1f2e45;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #64748b;
+    padding: 25px 10px;
+    font-size: 14px;
+}
+
+/* Tampilan ponsel */
+@media (max-width: 600px) {
+    .container {
+        width: 94%;
+        margin: 20px auto;
+    }
+
+    .header {
+        padding: 25px 18px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
